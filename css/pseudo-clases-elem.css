@@ -1,0 +1,47 @@
+.first{
+  border: 5px solid black;
+  margin:10px;
+  padding:10px;
+}
+
+.first p:first-child{
+  color: red;
+}
+
+a:link{
+  background-color:red;
+}
+
+a:visited{
+  background-color:green;
+}
+
+.hover{
+  background-color: blueviolet;
+}
+
+.hover:hover{
+  background-color: blue;
+}
+
+.active{
+  background-color:red;
+}
+
+.active:active{
+  background-color: green;
+}
+
+input:focus{
+  border: blue 2px solid;
+}
+
+.before:before{
+  content: " es un antes";
+  color:red;
+}
+
+.after:after{
+  content: " es un despues";
+  color:green;
+}
