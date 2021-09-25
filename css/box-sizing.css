@@ -1,0 +1,30 @@
+.content{
+  box-sizing: content-box;
+  background: aqua;
+  width: 100px;
+  height: 100px;
+  padding:10px;
+  border: 5px solid green;
+}
+
+.border{
+  box-sizing: border-box;
+  background:black;
+  width: 100px;
+  height: 100px;
+  padding:10px;
+  border: 5px solid red;
+}
+
+.parrafos{
+  background:yellow;
+  width: 500px;
+  height: 200px;
+}
+
+.parrafos p{
+  background: red;
+  width: 400px;
+  padding:0px 100px;
+  box-sizing: border-box;
+}
