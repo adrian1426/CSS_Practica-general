@@ -1,0 +1,32 @@
+img{
+  float: right;
+  width:170px;
+  height:170px;
+  margin-left: 15px;
+}
+
+.none{
+  display: none;
+}
+
+/* ocupa toda la fila */
+.block{
+  padding:10px;
+  background:gray;
+  display: block;
+}
+
+/* se posiciona uno de lado de otro y NO se puede indicar width */
+.inline{
+  padding:10px;
+  background:aqua;
+  display: inline;
+}
+
+/* se posiciona uno de lado de otro y SI se puede indicar width */
+.inline-block{
+  padding:10px;
+  background:green;
+  display: inline-block;
+  width:150px;
+}
