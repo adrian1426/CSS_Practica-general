@@ -1,0 +1,42 @@
+.principal{
+  width:800px;
+  height:800px;
+  background-color: silver;
+  margin: auto;
+}
+
+.static{
+  width:100px;
+  height:100px;
+  background-color: green;
+  position: static;
+  left:150px;
+  top: 150px;
+}
+
+.relative{
+  width:100px;
+  height:100px;
+  background-color: red;
+  position: relative;
+  left:150px;
+  top: 150px;
+}
+
+.absolute{
+  width:100px;
+  height:100px;
+  background-color: yellow;
+  position: absolute;
+  left:150px;
+  top: 150px;
+}
+
+.fixed{
+  width:100px;
+  height:100px;
+  background-color: blue;
+  position: fixed;
+  left:250px;
+  top: 150px;
+}
