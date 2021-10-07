@@ -65,5 +65,36 @@ header{
 }
 
 .nav li a:hover{
-  border-bottom: 2px solid rgb(15, 99, 167);
+  border-bottom: 4px solid rgb(15, 99, 167);
+}
+
+/* Container home */
+.home-container{
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 100px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  transform: translate(-50%,50%);
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  border: 2px solid rgb(15, 99, 167);
+  color: white;
+  margin-right: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-more:hover{
+  background-color: rgb(15, 99, 167);
+}
+
+.btn-contact:hover{
+  background-color: rgb(15, 99, 167);
 }
