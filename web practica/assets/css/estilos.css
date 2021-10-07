@@ -1,3 +1,4 @@
+/* Configuraciones globales */
 *{
   padding:0;
   margin:0;
@@ -7,4 +8,62 @@
 .row{
   max-width:1140px;
   margin:0 auto;
+}
+
+/* Encabezados */
+html{
+  background-color: #fff;
+  color: rgb(62, 62, 62);
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+h1{
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 240%;
+  word-spacing:4px ;
+  letter-spacing: 10px;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.705),rgba(0,0,0,0.705)),url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo{
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-left: 90px;
+}
+
+.nav{
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+  margin-right: 70px;
+}
+
+.nav li{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+  font-size: 90%;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  transition: border-bottom 0.2s;
+}
+
+.nav li a:hover{
+  border-bottom: 2px solid rgb(15, 99, 167);
 }
