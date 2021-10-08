@@ -127,3 +127,49 @@ h2:after{
   width: 70%;
   margin-left: 15%;
 }
+
+.section-plans{
+  background-color: #f4f4f4;
+}
+
+.plan-content{
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+  text-align: center;
+}
+
+.plan-content div{
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-content ul{
+  list-style: none;
+}
+
+.plan-content ul li{
+  padding: 5px 0px;
+}
+
+.btn-ingresar{
+  color: black;
+}
+
+.btn-ingresar:hover{
+  background-color: rgb(15, 99, 167);
+  color: white;
+}
+
+.plan-price{
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: rgb(15, 99, 167);
+}
+
+.plan-price-discount{
+  color: black;
+}
