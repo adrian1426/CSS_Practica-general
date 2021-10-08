@@ -330,3 +330,24 @@ footer p{
   text-align: center;
   margin-top: 20px;
 }
+
+/* media queries */
+
+/* 0 a 480px */
+@media only screen and (max-width:480px) {
+  section{
+    padding: 25px 0;;
+  }
+
+  .contact-form{
+    width: 100%;
+  }
+
+  header{
+    height: 110vh;
+  }
+}
+
+/* 481px a 767px */
+@media only screen and (max-width:767px) {
+}
